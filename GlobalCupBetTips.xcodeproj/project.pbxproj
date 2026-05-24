@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0AFF9D2C04F7FD00B9B7EB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AFF9C2C04F7FD00B9B7EB /* Color+Extension.swift */; };
+		FA0AFFA12C05248300B9B7EB /* GlobalCupMotionFallbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AFFA02C05248300B9B7EB /* GlobalCupMotionFallbackView.swift */; };
+		FA2D05162BF12D5E00556921 /* GlobalCupBetTipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D05152BF12D5E00556921 /* GlobalCupBetTipsApp.swift */; };
+		FA2D05182BF12D5E00556921 /* StudyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D05172BF12D5E00556921 /* StudyScreen.swift */; };
+		FA2D051A2BF12D5F00556921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2D05192BF12D5F00556921 /* Assets.xcassets */; };
+		FA2D051D2BF12D5F00556921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2D051C2BF12D5F00556921 /* Preview Assets.xcassets */; };
+		FA2D05242BF12D9300556921 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D05232BF12D9300556921 /* DataModels.swift */; };
+		FA2D05272BF12E3C00556921 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = FA2D05262BF12E3C00556921 /* data.json */; };
+		FA2D05292BF1458500556921 /* GlobalCupMatchSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D05282BF1458500556921 /* GlobalCupMatchSimulation.swift */; };
+		FA2D052B2BF2443F00556921 /* BettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D052A2BF2443F00556921 /* BettingView.swift */; };
+		FA2D052E2BF24E7E00556921 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D052D2BF24E7E00556921 /* Team.swift */; };
+		FA2D05302BF24E9700556921 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D052F2BF24E9700556921 /* Country.swift */; };
+		FA2D05322BF24EB200556921 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D05312BF24EB200556921 /* Player.swift */; };
+		FA2D05342BF25F8000556921 /* BettingCoefficientCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D05332BF25F8000556921 /* BettingCoefficientCalculator.swift */; };
+		FA2D05362BF2674600556921 /* BettingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D05352BF2674600556921 /* BettingGame.swift */; };
+		FA3C38742C03766A00E35931 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C38732C03766A00E35931 /* MainScreen.swift */; };
+		FAA0B3F92BF75BB900494DBC /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0B3F82BF75BB900494DBC /* PlayerView.swift */; };
+		FAA0B3FD2BF77F2400494DBC /* NumberOnlyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0B3FC2BF77F2400494DBC /* NumberOnlyFormatter.swift */; };
+		FABD1B552C0DD8C500D4EB76 /* GlobalCupRootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD1B542C0DD8C500D4EB76 /* GlobalCupRootPresenter.swift */; };
+		FABD1B572C0DD8D200D4EB76 /* HCDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD1B562C0DD8D200D4EB76 /* HCDataManager.swift */; };
+		FABD1B592C0DD8DE00D4EB76 /* HCDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD1B582C0DD8DE00D4EB76 /* HCDataModel.swift */; };
+		FABD1B612C0DD93300D4EB76 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD1B602C0DD93300D4EB76 /* AppStorage.swift */; };
+		FABD1B632C0DD94400D4EB76 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD1B622C0DD94400D4EB76 /* AppData.swift */; };
+		FABD1B652C0DD95800D4EB76 /* DatabaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD1B642C0DD95800D4EB76 /* DatabaseObject.swift */; };
+		FABD1B672C0DD96800D4EB76 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD1B662C0DD96800D4EB76 /* UserData.swift */; };
+		FABD1B692C0DD99600D4EB76 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD1B682C0DD99600D4EB76 /* BrowserView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA0AFF9A2C04A1ED00B9B7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA0AFF9C2C04F7FD00B9B7EB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		FA0AFFA02C05248300B9B7EB /* GlobalCupMotionFallbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCupMotionFallbackView.swift; sourceTree = "<group>"; };
+		FA2D05122BF12D5E00556921 /* GlobalCupBetTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalCupBetTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2D05152BF12D5E00556921 /* GlobalCupBetTipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCupBetTipsApp.swift; sourceTree = "<group>"; };
+		FA2D05172BF12D5E00556921 /* StudyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyScreen.swift; sourceTree = "<group>"; };
+		FA2D05192BF12D5F00556921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2D051C2BF12D5F00556921 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA2D05232BF12D9300556921 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		FA2D05262BF12E3C00556921 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		FA2D05282BF1458500556921 /* GlobalCupMatchSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCupMatchSimulation.swift; sourceTree = "<group>"; };
+		FA2D052A2BF2443F00556921 /* BettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingView.swift; sourceTree = "<group>"; };
+		FA2D052D2BF24E7E00556921 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		FA2D052F2BF24E9700556921 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		FA2D05312BF24EB200556921 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FA2D05332BF25F8000556921 /* BettingCoefficientCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingCoefficientCalculator.swift; sourceTree = "<group>"; };
+		FA2D05352BF2674600556921 /* BettingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingGame.swift; sourceTree = "<group>"; };
+		FA3C38732C03766A00E35931 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		FAA0B3F82BF75BB900494DBC /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		FAA0B3FC2BF77F2400494DBC /* NumberOnlyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOnlyFormatter.swift; sourceTree = "<group>"; };
+		FABD1B542C0DD8C500D4EB76 /* GlobalCupRootPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCupRootPresenter.swift; sourceTree = "<group>"; };
+		FABD1B562C0DD8D200D4EB76 /* HCDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCDataManager.swift; sourceTree = "<group>"; };
+		FABD1B582C0DD8DE00D4EB76 /* HCDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCDataModel.swift; sourceTree = "<group>"; };
+		FABD1B602C0DD93300D4EB76 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		FABD1B622C0DD94400D4EB76 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		FABD1B642C0DD95800D4EB76 /* DatabaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseObject.swift; sourceTree = "<group>"; };
+		FABD1B662C0DD96800D4EB76 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		FABD1B682C0DD99600D4EB76 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2D050F2BF12D5E00556921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0AFF9B2C04F7EE00B9B7EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AFF9C2C04F7FD00B9B7EB /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA2D05092BF12D5E00556921 = {
+			isa = PBXGroup;
+			children = (
+				FA2D05142BF12D5E00556921 /* GlobalCupBetTips */,
+				FA2D05132BF12D5E00556921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2D05132BF12D5E00556921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D05122BF12D5E00556921 /* GlobalCupBetTips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2D05142BF12D5E00556921 /* GlobalCupBetTips */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D05152BF12D5E00556921 /* GlobalCupBetTipsApp.swift */,
+				FABD1B5F2C0DD91B00D4EB76 /* AppData */,
+				FABD1B532C0DD8A800D4EB76 /* HCDataManager */,
+				FA0AFF9B2C04F7EE00B9B7EB /* Extensions */,
+				FA0AFF9A2C04A1ED00B9B7EB /* Info.plist */,
+				FA2D052C2BF24E6600556921 /* Models */,
+				FA2D05252BF12D9C00556921 /* Data */,
+				FA3C38732C03766A00E35931 /* MainScreen.swift */,
+				FA2D05172BF12D5E00556921 /* StudyScreen.swift */,
+				FA2D052A2BF2443F00556921 /* BettingView.swift */,
+				FA0AFFA02C05248300B9B7EB /* GlobalCupMotionFallbackView.swift */,
+				FAA0B3FC2BF77F2400494DBC /* NumberOnlyFormatter.swift */,
+				FA2D05282BF1458500556921 /* GlobalCupMatchSimulation.swift */,
+				FA2D05332BF25F8000556921 /* BettingCoefficientCalculator.swift */,
+				FA2D05352BF2674600556921 /* BettingGame.swift */,
+				FA2D05192BF12D5F00556921 /* Assets.xcassets */,
+				FA2D051B2BF12D5F00556921 /* Preview Content */,
+				FAA0B3F82BF75BB900494DBC /* PlayerView.swift */,
+			);
+			path = GlobalCupBetTips;
+			sourceTree = "<group>";
+		};
+		FA2D051B2BF12D5F00556921 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D051C2BF12D5F00556921 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA2D05252BF12D9C00556921 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D05232BF12D9300556921 /* DataModels.swift */,
+				FA2D05262BF12E3C00556921 /* data.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		FA2D052C2BF24E6600556921 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D052D2BF24E7E00556921 /* Team.swift */,
+				FA2D052F2BF24E9700556921 /* Country.swift */,
+				FA2D05312BF24EB200556921 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FABD1B532C0DD8A800D4EB76 /* HCDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				FABD1B682C0DD99600D4EB76 /* BrowserView.swift */,
+				FABD1B542C0DD8C500D4EB76 /* GlobalCupRootPresenter.swift */,
+				FABD1B562C0DD8D200D4EB76 /* HCDataManager.swift */,
+				FABD1B582C0DD8DE00D4EB76 /* HCDataModel.swift */,
+			);
+			path = HCDataManager;
+			sourceTree = "<group>";
+		};
+		FABD1B5F2C0DD91B00D4EB76 /* AppData */ = {
+			isa = PBXGroup;
+			children = (
+				FABD1B602C0DD93300D4EB76 /* AppStorage.swift */,
+				FABD1B622C0DD94400D4EB76 /* AppData.swift */,
+				FABD1B642C0DD95800D4EB76 /* DatabaseObject.swift */,
+				FABD1B662C0DD96800D4EB76 /* UserData.swift */,
+			);
+			path = AppData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2D05112BF12D5E00556921 /* GlobalCupBetTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2D05202BF12D5F00556921 /* Build configuration list for PBXNativeTarget "GlobalCupBetTips" */;
+			buildPhases = (
+				FA2D050E2BF12D5E00556921 /* Sources */,
+				FA2D050F2BF12D5E00556921 /* Frameworks */,
+				FA2D05102BF12D5E00556921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlobalCupBetTips;
+			packageProductDependencies = (
+			);
+			productName = GlobalCupBetTips;
+			productReference = FA2D05122BF12D5E00556921 /* GlobalCupBetTips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2D050A2BF12D5E00556921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FA2D05112BF12D5E00556921 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FA2D050D2BF12D5E00556921 /* Build configuration list for PBXProject "GlobalCupBetTips" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2D05092BF12D5E00556921;
+			packageReferences = (
+			);
+			productRefGroup = FA2D05132BF12D5E00556921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2D05112BF12D5E00556921 /* GlobalCupBetTips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2D05102BF12D5E00556921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D051D2BF12D5F00556921 /* Preview Assets.xcassets in Resources */,
+				FA2D05272BF12E3C00556921 /* data.json in Resources */,
+				FA2D051A2BF12D5F00556921 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2D050E2BF12D5E00556921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABD1B612C0DD93300D4EB76 /* AppStorage.swift in Sources */,
+				FA2D05302BF24E9700556921 /* Country.swift in Sources */,
+				FA0AFF9D2C04F7FD00B9B7EB /* Color+Extension.swift in Sources */,
+				FA0AFFA12C05248300B9B7EB /* GlobalCupMotionFallbackView.swift in Sources */,
+				FA2D052E2BF24E7E00556921 /* Team.swift in Sources */,
+				FA2D052B2BF2443F00556921 /* BettingView.swift in Sources */,
+				FAA0B3FD2BF77F2400494DBC /* NumberOnlyFormatter.swift in Sources */,
+				FABD1B692C0DD99600D4EB76 /* BrowserView.swift in Sources */,
+				FAA0B3F92BF75BB900494DBC /* PlayerView.swift in Sources */,
+				FABD1B652C0DD95800D4EB76 /* DatabaseObject.swift in Sources */,
+				FA3C38742C03766A00E35931 /* MainScreen.swift in Sources */,
+				FA2D05242BF12D9300556921 /* DataModels.swift in Sources */,
+				FA2D05342BF25F8000556921 /* BettingCoefficientCalculator.swift in Sources */,
+				FA2D05322BF24EB200556921 /* Player.swift in Sources */,
+				FA2D05182BF12D5E00556921 /* StudyScreen.swift in Sources */,
+				FABD1B592C0DD8DE00D4EB76 /* HCDataModel.swift in Sources */,
+				FA2D05292BF1458500556921 /* GlobalCupMatchSimulation.swift in Sources */,
+				FABD1B672C0DD96800D4EB76 /* UserData.swift in Sources */,
+				FABD1B572C0DD8D200D4EB76 /* HCDataManager.swift in Sources */,
+				FA2D05162BF12D5E00556921 /* GlobalCupBetTipsApp.swift in Sources */,
+				FABD1B552C0DD8C500D4EB76 /* GlobalCupRootPresenter.swift in Sources */,
+				FA2D05362BF2674600556921 /* BettingGame.swift in Sources */,
+				FABD1B632C0DD94400D4EB76 /* AppData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA2D051E2BF12D5F00556921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA2D051F2BF12D5F00556921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2D05212BF12D5F00556921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlobalCupBetTips/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlobalCupBetTips/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Global Cup Bet Tips";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalcup.tips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				SUPPORTED_DEVICE_FAMILIES = 1;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA2D05222BF12D5F00556921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlobalCupBetTips/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlobalCupBetTips/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Global Cup Bet Tips";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalcup.tips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				SUPPORTED_DEVICE_FAMILIES = 1;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2D050D2BF12D5E00556921 /* Build configuration list for PBXProject "GlobalCupBetTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2D051E2BF12D5F00556921 /* Debug */,
+				FA2D051F2BF12D5F00556921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2D05202BF12D5F00556921 /* Build configuration list for PBXNativeTarget "GlobalCupBetTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2D05212BF12D5F00556921 /* Debug */,
+				FA2D05222BF12D5F00556921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2D050A2BF12D5E00556921 /* Project object */;
+}
